@@ -4,6 +4,9 @@
     <list default="true" id="5f2e45f7-a429-409c-90ec-4975ceb50415" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p1/processor_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p1/processor_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2/processor_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2/processor_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/plugin.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p1/processor.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -31,27 +34,52 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/go.mod">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/go.sum">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p1/processor_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="171">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/processorutil.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="66" selection-start-column="66" selection-end-column="66" />
               <folding>
-                <element signature="e#12#68#0" expanded="true" />
+                <element signature="e#14#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin/plugin_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding>
+                <element signature="e#16#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,11 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p2/processor_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="e#12#68#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,11 +112,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/p1/processor_test.go" />
         <option value="$PROJECT_DIR$/p1/processor.go" />
         <option value="$PROJECT_DIR$/p2/processor.go" />
-        <option value="$PROJECT_DIR$/p2/processor_test.go" />
         <option value="$PROJECT_DIR$/go.mod" />
+        <option value="$PROJECT_DIR$/p2/processor_test.go" />
+        <option value="$PROJECT_DIR$/p1/processor_test.go" />
+        <option value="$PROJECT_DIR$/main/main.go" />
+        <option value="$PROJECT_DIR$/example/plugin.go" />
+        <option value="$PROJECT_DIR$/plugin/plugin.go" />
+        <option value="$PROJECT_DIR$/main/processor.go" />
+        <option value="$PROJECT_DIR$/plugin/plugin_test.go" />
+        <option value="$PROJECT_DIR$/main/processorutil.go" />
       </list>
     </option>
   </component>
@@ -119,12 +150,22 @@
             <path>
               <item name="processors" type="b2602c69:ProjectViewProjectNode" />
               <item name="processors" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="processors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="processors" type="462c0819:PsiDirectoryNode" />
               <item name="p1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="processors" type="b2602c69:ProjectViewProjectNode" />
               <item name="processors" type="462c0819:PsiDirectoryNode" />
               <item name="p2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="processors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="processors" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,7 +184,11 @@
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugin" />
       <recent name="$PROJECT_DIR$/p2" />
     </key>
   </component>
@@ -159,74 +204,125 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkProcess in processors/p1">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkLoadAndRunP1 in github.com/wddpct/processors/plugin">
+    <configuration name="go build plugin.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="processors" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="processors" />
+      <filePath value="$PROJECT_DIR$/plugin/plugin.go" />
+      <package value="github.com/wddpct/processors" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkProcess in processors/p1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkLoadAndRunP1 in github.com/wddpct/processors/plugin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="processors" />
+      <working_directory value="$PROJECT_DIR$/plugin" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="github.com/wddpct/processors/plugin" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkLoadAndRunP1$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkProcess in github.com/wddpct/processors/p1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="processors" />
       <working_directory value="$PROJECT_DIR$/p1" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="processors/p1" />
+      <package value="github.com/wddpct/processors/p1" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^BenchmarkProcess$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkProcess in processors/p2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkProcess in github.com/wddpct/processors/p2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="processors" />
       <working_directory value="$PROJECT_DIR$/p2" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="processors/p2" />
+      <package value="github.com/wddpct/processors/p2" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^BenchmarkProcess$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestLoadAndRunP1 in github.com/wddpct/processors/plugin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="processors" />
+      <working_directory value="$PROJECT_DIR$/plugin" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/wddpct/processors/plugin" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLoadAndRunP1$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.BenchmarkProcess in processors/p1" />
-        <item itemvalue="Go Test.BenchmarkProcess in processors/p2" />
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.BenchmarkLoadAndRunP1 in github.com/wddpct/processors/plugin" />
+        <item itemvalue="Go Test.TestLoadAndRunP1 in github.com/wddpct/processors/plugin" />
+        <item itemvalue="Go Test.BenchmarkProcess in github.com/wddpct/processors/p1" />
+        <item itemvalue="Go Build.go build plugin.go" />
+        <item itemvalue="Go Test.BenchmarkProcess in github.com/wddpct/processors/p2" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="BenchmarkProcess_in_processors_p1 - 2019.03.04 at 10h 33m 46s.xml">
-      <configuration name="BenchmarkProcess in processors/p1" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 11h 24m 20s.xml">
+      <configuration name="TestLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 11h 24m 25s.xml">
+      <configuration name="BenchmarkLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 11h 25m 28s.xml">
+      <configuration name="TestLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 11h 26m 16s.xml">
+      <configuration name="BenchmarkLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 11h 26m 24s.xml">
+      <configuration name="BenchmarkLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkProcess_in_github_com_wddpct_processors_p1 - 2019.03.04 at 11h 26m 28s.xml">
+      <configuration name="BenchmarkProcess in github.com/wddpct/processors/p1" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 13h 29m 41s.xml">
+      <configuration name="TestLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 13h 30m 40s.xml">
+      <configuration name="TestLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 13h 30m 47s.xml">
+      <configuration name="BenchmarkLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkLoadAndRunP1_in_github_com_wddpct_processors_plugin - 2019.03.04 at 13h 30m 52s.xml">
+      <configuration name="BenchmarkLoadAndRunP1 in github.com/wddpct/processors/plugin" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25587606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3293348" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,40 +332,34 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/main.go" />
+    <entry file="file://$PROJECT_DIR$/example/plugin.go" />
+    <entry file="file:///usr/local/go/src/plugin/plugin.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#14#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2/processor_test.go">
+    <entry file="file://$PROJECT_DIR$/plugin/plugin.go" />
+    <entry file="file://$PROJECT_DIR$/go.mod">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#12#68#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.sum">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/p1/processor_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#12#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2/processor.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="171">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -280,13 +370,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go.sum">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go.mod">
+    <entry file="file://$PROJECT_DIR$/p2/processor.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2/processor_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/plugin_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/processorutil.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" selection-start-column="66" selection-end-column="66" />
+          <folding>
+            <element signature="e#14#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
