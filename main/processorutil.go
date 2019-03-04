@@ -1,4 +1,3 @@
-// go build -buildmode=plugin -o processorutil.so processorutil.go
 package main
 
 import (

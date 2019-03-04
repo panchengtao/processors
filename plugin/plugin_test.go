@@ -7,7 +7,7 @@ import (
 )
 
 func TestLoadAndRunP1(t *testing.T) {
-	p, err := plugin.Open("../main/processorutil.so")
+	p, err := plugin.Open("../processorutil.so")
 	if err != nil {
 		panic(err)
 	}
@@ -19,7 +19,7 @@ func TestLoadAndRunP1(t *testing.T) {
 }
 
 func BenchmarkLoadAndRunP1(b *testing.B) {
-	p, err := plugin.Open("../main/processorutil.so")
+	p, err := plugin.Open("../processorutil.so")
 	if err != nil {
 		panic(err)
 	}
